@@ -50,6 +50,7 @@ The settings will be used to create a database and, apparently, later as the Wor
 
     ADD_DB_USER=yes|no
 Do you want to create a database user? If no, you need to provide a user that has access to the database named above. If you want to add a new user, a root user needs to be set. You may use your own password or use the "built-in" random function:
+
     DB_USER="${PROJECT}_dbuser"
     DB_USER_PASSWORD=secret # or use this: $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
@@ -88,8 +89,9 @@ Do you want to install plugins? If yes, provide the slug of one or more plugins,
 ## Content
     ADD_CONTENT=yes|no
 Do you want to add posts?  
+
     META_INPUT='{"_elementor_edit_mode":"<![CDATA[builder]]>","_elementor_template_type":"<![CDATA[kit]]>","_elementor_version":"<![CDATA[2.9.13]]>"}'
-Some e.g. Themes expect special information within the post meta data. You can define them here. 
+Some e.g. Themes expect special information within the post meta data. You can define them here. They will be added to every created post.
 
     RANDOMIZE_EVERY_ITEM=yes|no
 If set to yes, every category, tag, post, post excerpt and post title and even image will be randomized, this cost a lot of time, because it leads to a couple of HTTP requests.
@@ -97,10 +99,13 @@ If set to no, we only query each API once to get one random item and re-use it e
 
     COUNT_POSTS=1
 How many post do you want to create? If set to 0, no post will be created. 
+
     COUNT_PARAGRAPHS=1
 How many paragraphs each post should have? 
+
     COUNT_POST_REVISIONS=1
 How many post revisions do you need? If set to 0, no post revision will be created. 
+
     COUNT_TAGS=0
 How many tags do you want to add to every post? If set to 0, no tag will be added. 
 
@@ -113,6 +118,7 @@ This script will create two levels of categories. You you can define how many ca
 
     WP_CLI_EXEC=~/wp-cli.phar
 This script requires WP CLI. Provide a location here. If WP CLI does not exist on this location, the script will download it. 
+
     WP_CLI_SOURCE=https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 The source of WP CLI. 
 
