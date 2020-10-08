@@ -38,6 +38,7 @@ Do you want to remove the database provideded below before creating a new on? It
 
     DB_HOST=127.0.0.1
 The adress of your database, ip adress
+
     DB_ROOT=user
     DB_ROOT_PASSWORD=password
 The root user that allows the script to add a database or add a user. You don't need those parameters if database and user does exist.
@@ -148,4 +149,4 @@ This script uses following API to create random tags, categories, sentences, par
 
 # Notice
 A a German translation and instruction can be found here:
-https://www.nickyreinert.de/automatisierte-wordpress-installation/
+https://www.nickyreinert.de/automatisierte-wordpress-installation/  
