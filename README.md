@@ -134,7 +134,7 @@ This API delivers sentences for post titles.
 This API delivers random texts for the post content.
 
     RANDOM_IMAGE_API_URI='https://picsum.photos/200/300.jpg'
-Last not least, an API to get random images.
+Last not least, an API to get random images. You may change the numbers at the end of the URL. They represent the resolution of the image.
 
 # Used 3rd party ressources
 This script uses following API to create random tags, categories, sentences, paragraphs and images:
