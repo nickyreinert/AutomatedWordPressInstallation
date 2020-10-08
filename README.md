@@ -69,7 +69,7 @@ The path to your installation. You can use the PROJECT place holder here. Make s
     WP_DROP=yes|no
 Do you want to remove the destination folder before installing WordPress?
 
-    WP_TITLE='WordPress AutoTagger'
+    WP_TITLE='WordPress Blog'
 The title of your WordPress installation
     URL="https://wordpress.example.org/${PROJECT}"
 The URL under that points to your installation.
