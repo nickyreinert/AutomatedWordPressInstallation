@@ -58,7 +58,7 @@ Do you want to create a database user? If no, you need to provide a user that ha
     INSTALL_CORE=yes|no
 Do you want to install WordPress from the scratch? If set to no, the script expects a working installation in the destination folder
 
-    WP_PATH="/var/nginx/wordpress_nickyreinert_de/htdocs/${PROJECT}/"
+    WP_PATH="/var/nginx/htdocs/${PROJECT}/"
 The path to your installation. You can use the PROJECT place holder here. Make sure, that the parent path is writable. 
 
 **!!!**
@@ -70,7 +70,7 @@ Do you want to remove the destination folder before installing WordPress?
 
     WP_TITLE='WordPress AutoTagger'
 The title of your WordPress installation
-    URL="https://wordpress.nickyreinert.de/${PROJECT}"
+    URL="https://wordpress.example.org/${PROJECT}"
 The URL under that points to your installation.
 
     WP_ADMIN_NAME=admin
