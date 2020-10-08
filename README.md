@@ -137,3 +137,9 @@ This script uses following API to create random tags, categories, sentences, par
 * http://metaphorpsum.com/sentences/
 * http://metaphorpsum.com/paragraphs/
 * https://picsum.photos/
+
+
+
+# Notice
+A a German translation and instruction can be found here:
+https://www.nickyreinert.de/automatisierte-wordpress-installation/
