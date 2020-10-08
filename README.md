@@ -2,7 +2,7 @@
 This bash script creates a full WordPress installation (including database and users) with random fake content, plugins and a theme.
 
 # Warning
-This script uses **rm -rf** to remove the folder defined with **WP_PATH** if **DROP_WP **is set to **yes**. This script also **removes** the database defined with **DB_NAME** if **DROP_DB** is set to **yes**. Handle with care and **MAKE BACKUPS**.
+This script uses **rm -rf** to remove the folder defined with **WP_PATH** if **DROP_WP** is set to **yes**. This script also **removes** the database defined with **DB_NAME** if **DROP_DB** is set to **yes**. Handle with care and **MAKE BACKUPS**.
 
 # Installation
 Pull the sources and copy .settings-template to .settings. Edit to fit your requirements.
